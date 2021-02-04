@@ -79,7 +79,7 @@ export default function SearchRecipe() {
                                     title={recipe.name}
                                 />
                                 <CardMedia 
-                                    square
+                                    square="true"
                                     className={classes.media}
                                     image={recipe.imageUrl}
                                     title={recipe.name} />

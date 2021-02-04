@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 
 import Recipe from './components/recipe/recipe.component';
 import SearchRecipe from './components/search-recipe/search-recipe.component';
+import ShoppingList from './components/shopping-list/shopping-list.component';
 
 export default function App() {
   return (
@@ -16,6 +17,9 @@ export default function App() {
           </Route>
           <Route path="/recipe">
             <SearchRecipe />
+          </Route>
+          <Route path="/shoppingList/:shoppingListId">
+            <ShoppingList />
           </Route>
         </Switch>
       </Router>
